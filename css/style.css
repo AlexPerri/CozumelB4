@@ -1,0 +1,150 @@
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: Arial;
+	padding-top: 60px;
+}
+.margin {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.jumpto {
+	display: block;
+  	position: relative;
+  	top: -70px;
+  	visibility: hidden;
+}
+.section-header {
+	padding-bottom: 40px;
+	margin-left: 10%;
+}
+.section {
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+	/*Fixed navbar*/
+#page.navbar {
+	background-color: #246692;
+}
+#page.navbar .nav-link {
+	color: #ffffff;
+	font-size: 1.2em;
+	font-family: arial;
+}
+#page.navbar ul li a:hover{
+	color: red;
+}
+#menu-icon {
+	color: #ffffff;
+	font-size: 1em;
+}
+	/*Hero*/
+.jumbotron {
+	width: 100%;
+	height: 60%;
+	margin-bottom: 0px;
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/header.jpg);
+	background-position: 50% 80%;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+#hero-content {
+	text-align: center;
+	line-height: 0.8;
+}
+#hero-text {
+	color: white;
+	font-size: 5vw;
+	font-family: Brush Script MT;
+}
+	/*Overview */
+.card {
+	border: none;
+	background-color: #eaf4fa;
+}
+#overview-cards {
+	margin-bottom: 40px;
+}
+.card-text {
+	font-size: 1.6em;
+}
+#overview {
+	background-color: #eaf4fa;
+}
+#overview p, i {
+	color: ;
+}
+#about{
+	float: left;
+	font-size: 1.1em;
+}
+.fas {
+	font-size: 4em;
+}
+	/*Pictures*/
+.pictures {
+	/*background-color: #f2f2f2;*/
+	background-color: #eaf4fa;
+}
+.carousel {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.carousel-inner {
+	max-width: 1024px;
+	max-height: 681px;
+	margin: 0 auto;
+}
+.carousel-control-next-icon {
+	filter: brightness(10%);
+}
+.carousel-control-prev-icon {
+	filter: brightness(10%);
+}
+	/*Amenities*/
+.list-group {
+	/*float: left;*/
+	/*width: 60%*/
+}
+div img {
+	float: right;
+	height: auto;
+	/*max-width: 100%;*/
+}
+.amenities-subitem {
+	display: inline-block;
+	padding: 10px;
+}
+#amenities {
+	background-color: #eaf4fa;
+}
+.list-group-item {
+	background-color: #eaf4fa;
+}
+#mapsection {
+	background-color: #eaf4fa;
+}
+#map {
+	height: 500px;
+	width: 50%;
+	margin: 0 auto;
+}
+#contact {
+	background-color: #246692;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 46px;
+  }
+  .card {
+  	padding: 10px;
+  }
+}

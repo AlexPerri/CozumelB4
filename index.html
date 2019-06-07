@@ -1,66 +1,311 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Test Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+	    <title>rentcoz.com</title>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	    <link rel="stylesheet" href="css/style.css">
+	    
+  	</head>
+  	<body>
+<!-- Nav Bar -->
+	    <nav id="page" class="navbar navbar-expand-sm fixed-top">
+	      	<div class="container-fluid">
+	        	<div class="navbar-header float-right">
+	          		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" >
+	            		<span><i id="menu-icon" class="fas fa-bars"></i></span>
+	          		</button>
+	       		</div>  
+	        	<div class="collapse navbar-collapse justitfy-content-center" id="myNavbar">
+		          	<ul class="navbar-nav mx-auto">
+		            	<li class="nav-item active">
+		              		<a class="nav-link" href="#overviewlink">Overview</a>
+		            	</li>
+		            	<li class="nav-item">
+		              		<a class="nav-link" href="#amenitieslink">Amenities</a>
+		            	</li>
+		            	<li class="nav-item">
+		              		<a class="nav-link" href="#pictureslink">Pictures<span class="sr-only">(current)</span></a>
+		            	</li>
+		            	<li class="nav-item">
+		              		<a class="nav-link" href="#maplink">Map</a>
+		            	</li>
+		            	<li class="nav-item">
+		              		<a class="nav-link" href="#contactlink">Contact</a>
+		            	</li>
+		          	</ul>
+	        	</div>
+	      	</div>
+	    </nav>
+<!-- Navbar end -->
+<!-- Hero -->
+	    <section class="jumbotron jumbotron-fluid">
+	    	<div id="hero-content" class="container">
+	    		<p id="hero-text">Peninsula Grand</p>
+	    		<p id="hero-text">B4</p>
+	    	</div>
+	    </section>
+<!-- Hero end -->
+<!-- Overview -->
+		<section id="overview" class="section">
+			<div class="margin">
+				<a class="jumpto" name="overviewlink"></a>
+				<div id="overview-cards" class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card text-center">
+							<i class="fas fa-bed card-title"></i>
+							<p class="card-text"> 3 Bedrooms </p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card text-center">
+							<i class="fas fa-user-friends card-title"></i>
+							<p class="card-text"> Sleeps 6 </p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card text-center">
+							<i class="fas fa-bath card-title"></i>
+							<p class="card-text"> 4 Bathrooms </p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card text-center">
+							<i class="fas fa-utensils card-title"></i>
+							<p class="card-text"> Fully Stocked Kitchen</p>
+						</div>
+					</div>
+				</div>
+				<div id="about" class="container">
+					<p>
+					    Peninsula Grand is a 3 bedroom 4 bath luxury condo with 24 hour security just a 5 minute ride north of downtown Cozumel. This unit, B4, is on the 4th floor of the south building of two towers. Each of the 3 bedrooms and kitchen have ocean views; the kitchen and studio also overlook the jungle. This spacious 2400 sq ft condo with tiled floors throughout is equipped with everything you will need for a comfortable stay. The dining room seats 8. There is a 216 sq ft private balcony off the dining/living rooms that offer sweeping panoramic views of the ocean. The master bedroom also has a 127 sq ft balcony. Right downstairs you will find 300 ft of private beach with stairstep access to the ocean (great snorkeling!), 2 outdoor showers, a large heated swimming pool, 2 saunas, 2 steam rooms, a massage room (appt needed), a gym with ocean views, showers and bathrooms in the gym, a recreation room with ocean views equipped with a pool table and cable TV, and a snack bar with food service (10am - 6pm- check for cook's day off). This is the only condo complex with on site food service. Food and drinks are available poolside or on the beach.
+					</p>
+			      	<p>
+			        	The fully equipped kitchen includes granite counter tops, purified water, coffee maker, George Foreman grill, toaster, microwave, blender. The living room has a 42 inch cable TV and 30 DVD movies to chose from. There is a programmable safe on the premises for valuables. Free internet, free phone calls to US & Canada. Maid service included.
+			      	</p>
+			      	<p>
+			        	Watch the cruise ships pass by and gorgeous sunsets from the balcony.
+			      	</p>
+				</div>
+			</div>
+		</section>
+<!-- Overview end -->
+<!-- Carousel -->
+	    <section class="section pictures">
+	    	<a class="jumpto" name="pictureslink"></a>
+    		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    			<ol class="carousel-indicators">
+    				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    				<li data-target="#myCarousel" data-slide-to="1"></li>
+			        <li data-target="#myCarousel" data-slide-to="2"></li>
+			        <li data-target="#myCarousel" data-slide-to="3"></li>
+			        <li data-target="#myCarousel" data-slide-to="4"></li>
+			        <li data-target="#myCarousel" data-slide-to="5"></li>
+			        <li data-target="#myCarousel" data-slide-to="6"></li>
+			        <li data-target="#myCarousel" data-slide-to="7"></li>
+			        <li data-target="#myCarousel" data-slide-to="8"></li>
+			        <li data-target="#myCarousel" data-slide-to="9"></li>
+			        <li data-target="#myCarousel" data-slide-to="10"></li>
+			        <li data-target="#myCarousel" data-slide-to="11"></li>
+			        <li data-target="#myCarousel" data-slide-to="12"></li>
+			        <li data-target="#myCarousel" data-slide-to="13"></li>
+			        <li data-target="#myCarousel" data-slide-to="14"></li>
+    			</ol>
+    			<div class="carousel-inner">
+    				<div class="carousel-item active">
+    					<img class="img-fluid" src="imgnew/beach.jpg">
+    				</div>
+    				<div class="carousel-item">
+			          	<img class="img-fluid" src="imgnew/front.jpg">
+			        </div>
+			        <div class="carousel-item">
+			          	<img class="img-fluid" src="imgnew/kitchen.jpg">
+			        </div>
+			        <div class="carousel-item">
+			          	<img class="img-fluid" src="imgnew/dining.jpg">
+			        </div>
+			        <div class="carousel-item">
+			          	<img class="img-fluid" src="imgnew/dining2.jpg">
+			        </div>
+			        <div class="carousel-item">
+			          	<img class="img-fluid" src="imgnew/master.jpg">
+			        </div>
+			        <div class="carousel-item">
+			          	<img class="img-fluid" src="imgnew/master2.jpg">
+			        </div>
+			        <div class="carousel-item">
+			         	<img class="img-fluid" src="imgnew/queen.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/double.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/massage.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/view.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/utility.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/view2.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/mastersink.jpg">
+			        </div>
+			        <div class="carousel-item">
+			        	<img class="img-fluid" src="imgnew/masterbr.jpg">
+			        </div>
+    			</div>
+    			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			</a>
+    		</div>
+	    </section>
+<!-- Carousel end -->
+<!-- Amenities -->
+		<section id="amenities" class="section">
+		    <div class="margin">
+		    	<a class="jumpto" name="amenitieslink"></a>
+		      	<h2 class="section-header"> Amenities </h1>
+		      	<ul class="list-group list-group-flush">
+		      		<li class="list-group-item">
+		      			<div>
+		      				<h4>Featured</h4>
+		      				<div class="amenities-subitem">Swimming Pool</div>
+		      				<div class="amenities-subitem">Gym</div>
+		      				<div class="amenities-subitem">Sauna & Steam Room</div>
+		      				<div class="amenities-subitem">Internet</div>
+		      				<div class="amenities-subitem">Air Conditioning</div>
+		      				<div class="amenities-subitem">TV</div>
+		      				<div class="amenities-subitem">Satellite/Cable</div>
+		      				<div class="amenities-subitem">Washer & Dryer</div>
+		      				<div class="amenities-subitem">Car Parking</div>
+		      				<div class="amenities-subitem">Children Welcome</div>
+		      			</div>
+		      		</li>
+		      		<li class="list-group-item">
+		      			<div>
+		      				<h4>Bathrooms</h4>
+		      				<div class="amenities-subitem">
+		      					<b>Master</b> <br>
+		      					toilet, shower, jacuzzie tub, walk in closet
+		      				</div>
+		      				<div class="amenities-subitem">
+		      					<b>Bedroom 1</b> <br>
+		      					toilet, shower
+		      				</div>
+		      				<div class="amenities-subitem">
+		      					<b>Bedroom 2</b> <br>
+		      					toilet, shower
+		      				</div>
+		      				<div class="amenities-subitem">
+		      					<b>Hallway</b> <br>
+		      					toilet, shower
+		      				</div>
+		      			</div>
+		      		</li>
+		      		<li class="list-group-item">
+		      			<div>
+		      				<h4>Kitchen</h4> 
+		      				<div class="amenities-subitem">Dishwasher</div>
+		      				<div class="amenities-subitem">Refrigerator</div>
+		      				<div class="amenities-subitem">Stove</div>
+		      				<div class="amenities-subitem">Oven</div>
+		      				<div class="amenities-subitem">Microwave</div>
+		      				<div class="amenities-subitem">Grill</div>
+		      				<div class="amenities-subitem">Cooking Utensils</div>
+		      				<div class="amenities-subitem">Coffee Maker</div>
+		      				<div class="amenities-subitem">Toaster</div>
+		      				<div class="amenities-subitem">Blender</div>
+		      				<div class="amenities-subitem">Dishes & Utensils</div>
+		      			</div>
+		      		</li>
+		      		<li class="list-group-item">
+		      			<div>
+		      				<h4>Entertainment</h4>
+		      				<div class="amenities-subitem">Television</div>
+		      				<div class="amenities-subitem">Netflix Capability</div>
+		      				<div class="amenities-subitem">Satellite/Cable</div>
+		      				<div class="amenities-subitem">Sterio</div>
+		      				<div class="amenities-subitem">CD Player</div>
+		      				<div class="amenities-subitem">DVD Player</div>
+		      				<div class="amenities-subitem">DVD Library</div>
+		      				<div class="amenities-subitem">Books</div>
+		      				<div class="amenities-subitem">Public Recreation Room</div>
+		      				<div class="amenities-subitem">Pool Table</div>
+		      			</div>
+		      		</li>
+		      		<li class="list-group-item">
+		      			<div class="amenities-subitem">
+		      				<h4>Onsite Services</h4>
+		      				<div>Massage Room <br> <small>appointment needed</small></div>
+		      			</div>
+		      			<div class="amenities-subitem">Private Chef</div>
+		      	</ul>
+		      	<div></div>
+		    </div>
+		</section>
+<!-- Amenities end -->
+<!-- Map -->
+		<section id="mapsection" class="section">
+		    <div class="margin">
+		      <a class="jumpto" name="maplink"></a>
+		      <div id="map"></div>
+		    </div>
+		</section>
+<!-- Map end -->
+<!-- Contact -->
+		<section id="contact" class="section">
+			<div class="margin">
+				<a class="jumpto" name="contactlink"></a>
+				<h2 class="section-header">Contact</h2>
+				<form action="/action_page.php">
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<label for="firstname"> First name*: </label>
+							<input type="text" class="form-control" id="firstname" required>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="lastname"> Last name*: </label>
+							<input type="text" class="form-control" id="lastname" required>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-8">
+							<label for="email">Your email*: </label>
+							<input type="email" class="form-control" id="email" required>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-9">
+							<label for="message"> Message*: </label>
+							<textarea class="form-control" id="message" required></textarea>
+						</div>
+					</div>
+					<button class="btn btn-lg" type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+<!-- Contact end -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
 
-    
-  </head>
-  <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">rentCoz</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <img src="img/Beach.jpg">
-        </div>
-        <div class="carousel-item">
-          <img src="img/peir.jpg">
-        </div>
-        <div class="carousel-item">
-          <img src="img/chairs.jpg">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-  </div>
-    <!-- MOVE THE JS TO THE BOTTOM jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj5QMlUMDcp1IJnGrTZtQGNSZoDCq4qTM&callback=initMap"></script>
   </body>
 </html>
+
+<!--  Google Maps Key:   AIzaSyBj5QMlUMDcp1IJnGrTZtQGNSZoDCq4qTM  -->
